@@ -7,76 +7,110 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.js"></script>
-    <script>
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.worker.min.js';
-    </script>
 </head>
 <body class="bg-gray-900 text-white min-h-screen p-4">
     <header class="text-center mb-8">
         <h1 class="text-3xl font-bold">Paper Detail</h1>
-        <a href="index.html" class="text-blue-400">Back to Dashboard</a>
+        <a href="index.html" class="text-blue-400 hover:underline">← Back to Dashboard</a>
     </header>
 
     <section id="detail" class="bg-gray-800 p-6 rounded shadow mb-8">
-        <!-- JS will populate here -->
+        <div class="animate-pulse">
+            <div class="h-6 bg-gray-700 rounded w-3/4 mb-4"></div>
+            <div class="h-4 bg-gray-700 rounded w-1/2"></div>
+        </div>
     </section>
 
     <section class="mb-8">
-        <h2 class="text-2xl mb-4">PDF Preview & Extracted Text</h2>
-        <div id="pdfPreview" class="bg-gray-700 p-4 rounded h-96 overflow-auto"></div>
+        <h2 class="text-2xl mb-4">📄 Document Preview</h2>
+        <div class="bg-gray-700 p-4 rounded">
+            <p class="text-gray-300 mb-4">
+                Click the button above to view the full document.
+            </p>
+            <p class="text-sm text-gray-400">
+                💡 Tip: Most NASA publications are freely accessible. Click "Open Full Text" 
+                to view the complete paper in a new tab.
+            </p>
+        </div>
     </section>
 
-    <script type="text/javascript" src="js/firebase.js"></script> <!-- Reuse your firebase.js -->
+    <script type="text/javascript" src="firebase.js"></script>
     <script>
+      let db;
+
       async function loadPaperDetail() {
-        const params = new URLSearchParams(window.location.search);
-        const title = params.get('title'); // Get from URL, e.g., ?title=Some Title
-
-        if (!title) {
-          document.getElementById('detail').innerHTML = '<p>Error: No title provided.</p>';
-          return;
-        }
-
-        // Fetch from Firestore (or local if needed)
-        const docRef = db.collection('publications').doc(title.replace(/[^a-zA-Z0-9]/g, '_'));
-        const doc = await docRef.get();
-        if (!doc.exists) {
-          document.getElementById('detail').innerHTML = '<p>Paper not found.</p>';
-          return;
-        }
-
-        const pub = doc.data();
-        document.getElementById('detail').innerHTML = `
-          <h3 class="text-xl font-bold">${pub.title}</h3>
-          <p>Year: ${pub.year} | Organism: ${pub.organism} | Topic: ${pub.topic}</p>
-          <a href="${pub.link}" target="_blank" class="text-blue-400">Full Text Link</a>
-          <p class="mt-4">Summary: TL;DR - Key findings here (expand with AI if needed).</p>
-        `;
-
-        // Extract and preview PDF
-        const text = await extractTextFromPDF(pub.link);
-        document.getElementById('pdfPreview').innerHTML = `<p>Extracted Text (First 500 chars): ${text.slice(0, 500)}...</p>`;
-      }
-
-      async function extractTextFromPDF(url) {
         try {
-          const loadingTask = pdfjsLib.getDocument(url);
-          const pdf = await loadingTask.promise;
-          let text = '';
-          for (let i = 1; i <= Math.min(5, pdf.numPages); i++) {
-            const page = await pdf.getPage(i);
-            const content = await page.getTextContent();
-            text += content.items.map(item => item.str).join(' ');
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          db = firebase.firestore();
+
+          const params = new URLSearchParams(window.location.search);
+          const title = params.get('title');
+
+          if (!title) {
+            document.getElementById('detail').innerHTML = 
+              '<p class="text-red-500">Error: No title provided in URL.</p>';
+            return;
           }
-          return text;
+
+          // Try to fetch from Firestore
+          const docId = title.replace(/[^a-zA-Z0-9]/g, '_').substring(0, 100);
+          const docRef = db.collection('publications').doc(docId);
+          const doc = await docRef.get();
+
+          if (!doc.exists) {
+            document.getElementById('detail').innerHTML = 
+              '<p class="text-yellow-500">Paper not found in database. It may not have been uploaded yet.</p>';
+            return;
+          }
+
+          const pub = doc.data();
+          
+          // Display paper details
+          document.getElementById('detail').innerHTML = `
+            <h3 class="text-2xl font-bold mb-4">${pub.title}</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+              <div>
+                <span class="text-gray-400">Year:</span>
+                <span class="ml-2 font-semibold">${pub.year}</span>
+              </div>
+              <div>
+                <span class="text-gray-400">Organism:</span>
+                <span class="ml-2 font-semibold">${pub.organism}</span>
+              </div>
+              <div>
+                <span class="text-gray-400">Topic:</span>
+                <span class="ml-2 font-semibold">${pub.topic}</span>
+              </div>
+            </div>
+            <div class="mt-4">
+              <a href="${pub.link}" target="_blank" 
+                 class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded transition text-lg font-semibold">
+                📄 Open Full Text Document
+              </a>
+            </div>
+            <div class="mt-6 p-4 bg-gray-900 rounded">
+              <h4 class="font-semibold mb-2 text-lg">About this publication:</h4>
+              <p class="text-gray-300 mb-3">
+                This publication focuses on <span class="text-blue-400 font-semibold">${pub.topic.toLowerCase()}</span> research using 
+                <span class="text-green-400 font-semibold">${pub.organism}</span> as the model organism.
+              </p>
+              <p class="text-gray-300">
+                Published in <span class="font-semibold">${pub.year}</span>, it contributes to NASA's space biology 
+                research program, which aims to understand how space conditions affect living organisms.
+              </p>
+            </div>
+          `;
+
         } catch (error) {
-          console.error('PDF.js error:', error);
-          return 'Error loading PDF - Open link directly.';
+          console.error('Error loading paper:', error);
+          document.getElementById('detail').innerHTML = 
+            `<p class="text-red-500">Error loading paper details: ${error.message}</p>`;
         }
       }
 
-      loadPaperDetail(); // Run on load
+      // Run on page load
+      loadPaperDetail();
     </script>
 </body>
 </html>

@@ -2,67 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroLegacy: NASA Space Biology Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-storage-compat.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script> <!-- Reliable D3 CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.js"></script>
-    <script>
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.worker.min.js'; <!-- Worker here -->
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body class="bg-gray-900 text-white min-h-screen p-4">
     <header class="text-center mb-8">
-        <h1 class="text-4xl font-bold">AstroLegacy</h1>
-        <p class="text-lg">Explore 608 NASA Space Biology Publications | Powered by OSDR, NSLSL, Task Book</p>
+        <h1 class="text-4xl font-bold mb-2">🚀 AstroLegacy</h1>
+        <p class="text-lg text-gray-400">Explore 608 NASA Space Biology Publications</p>
+        <p class="text-sm text-gray-500">Powered by OSDR, NSLSL, Task Book</p>
     </header>
 
     <section class="mb-8">
-        <h2 class="text-2xl mb-4">Search & Explore</h2>
-        <div class="flex space-x-4">
-            <select id="topicFilter" class="bg-gray-800 p-2 rounded"></select>
-            <select id="yearFilter" class="bg-gray-800 p-2 rounded"></select>
-            <select id="organismFilter" class="bg-gray-800 p-2 rounded"></select>
-            <input id="searchInput" type="text" placeholder="Search..." class="bg-gray-800 p-2 rounded flex-grow">
-            <button id="resetBtn" class="bg-blue-600 p-2 rounded">Reset</button>
+        <h2 class="text-2xl mb-4">🔍 Search & Explore</h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <select id="topicFilter" class="bg-gray-800 p-2 rounded border border-gray-700 focus:border-blue-500 focus:outline-none">
+                <option value="">All Topics</option>
+            </select>
+            <select id="yearFilter" class="bg-gray-800 p-2 rounded border border-gray-700 focus:border-blue-500 focus:outline-none">
+                <option value="">All Years</option>
+            </select>
+            <select id="organismFilter" class="bg-gray-800 p-2 rounded border border-gray-700 focus:border-blue-500 focus:outline-none">
+                <option value="">All Organisms</option>
+            </select>
+            <input id="searchInput" type="text" placeholder="Search titles..." 
+                   class="bg-gray-800 p-2 rounded border border-gray-700 focus:border-blue-500 focus:outline-none md:col-span-1">
+            <button id="resetBtn" class="bg-blue-600 hover:bg-blue-700 p-2 rounded transition font-semibold">
+                Reset All
+            </button>
         </div>
     </section>
 
     <section id="results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-        <!-- JS will populate cards here -->
+        <div class="col-span-full text-center text-gray-400 py-8">
+            <div class="animate-pulse">Loading publications...</div>
+        </div>
     </section>
 
     <section class="mb-8">
-        <h2 class="text-2xl mb-4">Topic Distribution & Timeline</h2>
-        <div id="timelineChart" class="bg-gray-800 p-4 rounded w-full h-64"></div> <!-- Responsive sizes -->
+        <h2 class="text-2xl mb-4">📊 Visualizations</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="bg-gray-800 p-4 rounded">
+                <canvas id="timelineChart" style="height: 300px;"></canvas>
+            </div>
+            <div class="bg-gray-800 p-4 rounded">
+                <canvas id="topicChart" style="height: 300px;"></canvas>
+            </div>
+        </div>
     </section>
 
     <section class="mb-8">
-        <h2 class="text-2xl mb-4">Knowledge Graph</h2>
-        <div id="graphViz" class="bg-gray-800 p-4 rounded w-full h-96"></div>
+        <h2 class="text-2xl mb-4">💡 Actionable Insights</h2>
+        <div id="insights" class="bg-gray-800 p-4 rounded">
+            <p class="text-gray-400">Analyzing data...</p>
+        </div>
     </section>
 
     <section class="mb-8">
-        <h2 class="text-2xl mb-4">Actionable Insights</h2>
-        <div id="insights" class="bg-gray-800 p-4 rounded"></div>
+        <h2 class="text-2xl mb-4">🔗 NASA Resources</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <a href="https://www.nasa.gov/osdr/" target="_blank" 
+               class="bg-gray-800 p-4 rounded hover:bg-gray-700 transition block">
+                <h3 class="font-bold mb-2">📦 OSDR</h3>
+                <p class="text-sm text-gray-400">Open Science Data Repository - Raw datasets & experiments</p>
+            </a>
+            <a href="https://public.ksc.nasa.gov/nslsl/" target="_blank" 
+               class="bg-gray-800 p-4 rounded hover:bg-gray-700 transition block">
+                <h3 class="font-bold mb-2">📚 NSLSL</h3>
+                <p class="text-sm text-gray-400">NASA Space Life Sciences Library - Full text publications</p>
+            </a>
+            <a href="https://taskbook.nasaprs.com/tbp/welcome.cfm" target="_blank" 
+               class="bg-gray-800 p-4 rounded hover:bg-gray-700 transition block">
+                <h3 class="font-bold mb-2">📋 Task Book</h3>
+                <p class="text-sm text-gray-400">Current & historical space biology research projects</p>
+            </a>
+        </div>
     </section>
 
-    <section class="mb-8">
-        <h2 class="text-2xl mb-4">NASA Resources</h2>
-        <ul class="list-disc pl-6">
-            <li><a href="https://www.nasa.gov/osdr/" target="_blank" class="text-blue-400">OSDR Datasets</a></li>
-            <li><a href="https://public.ksc.nasa.gov/nslsl/" target="_blank" class="text-blue-400">NSLSL Library</a></li>
-            <li><a href="https://taskbook.nasaprs.com/tbp/welcome.cfm" target="_blank" class="text-blue-400">Task Book</a></li>
-        </ul>
-    </section>
+    <footer class="text-center mt-8 text-gray-500 text-sm">
+        © 2025 AstroLegacy
+    </footer>
 
-    <footer class="text-center mt-8">© 2025 xAI | Built with Tailwind & Firebase</footer>
-
-    <script type="text/javascript" src="js/firebase.js"></script> <!-- Type fix -->
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/viz.js"></script>
+    <script type="text/javascript" src="firebase.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
