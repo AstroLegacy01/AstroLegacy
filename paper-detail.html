@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Detail - AstroLegacy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.js"></script>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.worker.min.js';
+    </script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen p-4">
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold">Paper Detail</h1>
+        <a href="index.html" class="text-blue-400">Back to Dashboard</a>
+    </header>
+
+    <section id="detail" class="bg-gray-800 p-6 rounded shadow mb-8">
+        <!-- JS will populate here -->
+    </section>
+
+    <section class="mb-8">
+        <h2 class="text-2xl mb-4">PDF Preview & Extracted Text</h2>
+        <div id="pdfPreview" class="bg-gray-700 p-4 rounded h-96 overflow-auto"></div>
+    </section>
+
+    <script type="text/javascript" src="js/firebase.js"></script> <!-- Reuse your firebase.js -->
+    <script>
+      async function loadPaperDetail() {
+        const params = new URLSearchParams(window.location.search);
+        const title = params.get('title'); // Get from URL, e.g., ?title=Some Title
+
+        if (!title) {
+          document.getElementById('detail').innerHTML = '<p>Error: No title provided.</p>';
+          return;
+        }
+
+        // Fetch from Firestore (or local if needed)
+        const docRef = db.collection('publications').doc(title.replace(/[^a-zA-Z0-9]/g, '_'));
+        const doc = await docRef.get();
+        if (!doc.exists) {
+          document.getElementById('detail').innerHTML = '<p>Paper not found.</p>';
+          return;
+        }
+
+        const pub = doc.data();
+        document.getElementById('detail').innerHTML = `
+          <h3 class="text-xl font-bold">${pub.title}</h3>
+          <p>Year: ${pub.year} | Organism: ${pub.organism} | Topic: ${pub.topic}</p>
+          <a href="${pub.link}" target="_blank" class="text-blue-400">Full Text Link</a>
+          <p class="mt-4">Summary: TL;DR - Key findings here (expand with AI if needed).</p>
+        `;
+
+        // Extract and preview PDF
+        const text = await extractTextFromPDF(pub.link);
+        document.getElementById('pdfPreview').innerHTML = `<p>Extracted Text (First 500 chars): ${text.slice(0, 500)}...</p>`;
+      }
+
+      async function extractTextFromPDF(url) {
+        try {
+          const loadingTask = pdfjsLib.getDocument(url);
+          const pdf = await loadingTask.promise;
+          let text = '';
+          for (let i = 1; i <= Math.min(5, pdf.numPages); i++) {
+            const page = await pdf.getPage(i);
+            const content = await page.getTextContent();
+            text += content.items.map(item => item.str).join(' ');
+          }
+          return text;
+        } catch (error) {
+          console.error('PDF.js error:', error);
+          return 'Error loading PDF - Open link directly.';
+        }
+      }
+
+      loadPaperDetail(); // Run on load
+    </script>
+</body>
+</html>
