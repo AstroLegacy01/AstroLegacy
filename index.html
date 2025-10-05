@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroLegacy - Space Biology Research Database</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="astrolegacylogo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading AstroLegacy</h2>
+            <p>Preparing space biology research data...</p>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div id="error-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Error</h3>
+                <button class="modal-close" onclick="closeErrorModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="error-message"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--primary" onclick="closeErrorModal()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app hidden">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="Astrolegacylogo.png" alt="AstroLegacy Logo" style="width:80px;height:80px;border-radius:50%;object-fit:cover;display:block;">
+                        <h1>AstroLegacy</h1>
+                        <p>A Space Biology Knowledge Engine and Research Database</p>
+                    </div>
+                    <div class="header-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" id="total-publications">607</span>
+                            <span class="stat-label">Publications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="unique-organisms">10</span>
+                            <span class="stat-label">Organisms</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="platforms-used">4</span>
+                            <span class="stat-label">Platforms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="app-nav">
+            <div class="container">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-tab="publications">Publications</button>
+                    <button class="nav-tab" data-tab="knowledge-graph">Knowledge Graph</button>
+                    <button class="nav-tab" data-tab="analytics">Analytics</button>
+                    <button class="nav-tab" data-tab="insights">Insights</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <div class="container">
+                <!-- Publications Tab -->
+                <section id="publications-tab" class="tab-content active">
+                    <!-- Search and Filters -->
+                    <div class="search-controls">
+                        <div class="search-bar">
+                            <input type="text" id="search-input" class="form-control" placeholder="Search publications by title, author, organism...">
+                            <button class="btn btn--secondary" id="clear-search">Clear</button>
+                        </div>
+                        <div class="filters">
+                            <select id="organism-filter" class="form-control">
+                                <option value="">All Organisms</option>
+                            </select>
+                            <select id="platform-filter" class="form-control">
+                                <option value="">All Platforms</option>
+                            </select>
+                            <select id="experiment-filter" class="form-control">
+                                <option value="">All Experiment Types</option>
+                            </select>
+                            <input type="range" id="year-filter" class="range-slider" min="2015" max="2024" step="1">
+                            <label for="year-filter">Year: <span id="year-display">All Years</span></label>
+                        </div>
+                        <div class="sort-controls">
+                            <label>Sort by:</label>
+                            <select id="sort-select" class="form-control">
+                                <option value="relevance">Relevance</option>
+                                <option value="year">Year</option>
+                                <option value="confidence">Confidence Score</option>
+                                <option value="title">Title</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Results Summary -->
+                    <div class="results-summary">
+                        <span id="results-count">Loading publications...</span>
+                        <button class="btn btn--outline" id="export-results">Export Results</button>
+                    </div>
+
+                    <!-- Publications Grid -->
+                    <div class="publications-grid" id="publications-grid">
+                        <!-- Publications will be loaded here -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination" id="pagination">
+                        <!-- Pagination controls will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Knowledge Graph Tab -->
+                <section id="knowledge-graph-tab" class="tab-content">
+                    <div class="graph-controls">
+                        <div class="graph-options">
+                            <label>
+                                <input type="checkbox" id="show-organisms" checked> Organisms
+                            </label>
+                            <label>
+                                <input type="checkbox" id="show-platforms" checked> Platforms
+                            </label>
+                            <label>
+                                <input type="checkbox" id="show-experiments" checked> Experiments
+                            </label>
+                        </div>
+                        <button class="btn btn--primary" id="reset-graph">Reset View</button>
+                    </div>
+                    <div class="graph-container">
+                        <svg id="knowledge-graph"></svg>
+                    </div>
+                    <div class="graph-legend">
+                        <div class="legend-item">
+                            <div class="legend-color organism"></div>
+                            <span>Organisms</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color platform"></div>
+                            <span>Platforms</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color experiment"></div>
+                            <span>Experiments</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Analytics Tab -->
+                <section id="analytics-tab" class="tab-content">
+                    <div class="analytics-grid">
+                        <div class="chart-card">
+                            <h3>Publications Over Time</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="timeline-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Organisms Distribution</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="organisms-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Platforms Usage</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="platforms-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Experiment Types</h3>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="experiments-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Insights Tab -->
+                <section id="insights-tab" class="tab-content">
+                    <div class="insights-grid">
+                        <div class="insight-card">
+                            <h3>🎯 Mission Recommendations</h3>
+                            <div class="recommendations-list" id="recommendations-list">
+                                <!-- Recommendations will be loaded here -->
+                            </div>
+                        </div>
+                        <div class="insight-card">
+                            <h3>🔬 Research Gaps</h3>
+                            <div class="gaps-list" id="gaps-list">
+                                <!-- Research gaps will be loaded here -->
+                            </div>
+                        </div>
+                        <div class="insight-card">
+                            <h3>📊 Key Statistics</h3>
+                            <div class="stats-grid" id="key-stats">
+                                <!-- Key statistics will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Publication Detail Modal -->
+    <div id="publication-modal" class="modal hidden">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3 id="modal-title"></h3>
+                <button class="modal-close" onclick="closePublicationModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="publication-details">
+                    <div class="detail-section">
+                        <h4>Authors & Publication Info</h4>
+                        <p><strong>Authors:</strong> <span id="modal-authors"></span></p>
+                        <p><strong>Year:</strong> <span id="modal-year"></span></p>
+                        <p><strong>DOI:</strong> <span id="modal-doi"></span></p>
+                        <p><strong>PMID:</strong> <span id="modal-pmid"></span></p>
+                        <p><strong>Confidence Score:</strong> <span id="modal-confidence"></span></p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Research Details</h4>
+                        <p><strong>Organism:</strong> <span id="modal-organism"></span></p>
+                        <p><strong>Platform:</strong> <span id="modal-platform"></span></p>
+                        <p><strong>Experiment Type:</strong> <span id="modal-experiment"></span></p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Abstract</h4>
+                        <p id="modal-abstract"></p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>AI Summary</h4>
+                        <p id="modal-summary"></p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Key Findings</h4>
+                        <ul id="modal-findings"></ul>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Mission Implications</h4>
+                        <ul id="modal-implications"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a id="modal-link" class="btn btn--primary" target="_blank">View Full Paper</a>
+                <button class="btn btn--outline" onclick="closePublicationModal()">Close</button>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="footer">
+  <style>
+    .footer {
+      background-color: #0b0d17;
+      color: #fff;
+      padding: 40px 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .footer .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+    }
+    .footer__section {
+      flex: 1 1 300px;
+      min-width: 250px;
+    }
+    .footer__section h4 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: #58a6ff;
+    }
+    .footer__section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer__section ul li {
+      margin-bottom: 8px;
+    }
+    .footer__section ul li a {
+      color: #d0d0d0;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .footer__section ul li a:hover {
+      color: #58a6ff;
+    }
+    .footer__section p {
+      color: #d0d0d0;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+    .footer__bottom {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @media (max-width: 768px) {
+      .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__section">
+        <h4>NASA Resources</h4>
+        <ul>
+          <li><a href="https://osdr.nasa.gov" target="_blank">NASA Open Science Data Repository</a></li>
+          <li><a href="https://lsda.jsc.nasa.gov" target="_blank">Life Sciences Data Archive</a></li>
+          <li><a href="https://taskbook.nasa.gov" target="_blank">NASA Task Book</a></li>
+          <li><a href="https://ames.nasa.gov/space-biosciences" target="_blank">Space Biosciences Division</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h4>About AstroLegacy</h4>
+        <p>AstroLegacy provides comprehensive analysis of NASA's space biology research, featuring AI-powered insights, interactive visualizations, and mission planning tools for advancing human space exploration.</p>
+        <p><strong>Data Coverage:</strong> 607 publications • 10 organism types • 4 platforms • 8 experiment types</p>
+      </div>
+      <div class="footer__section">
+        <h4>Technical Support</h4>
+        <p>For questions about data, methodology, or technical issues, consult the NASA Open Science Data Repository documentation or contact the research team.</p>
+        <p><strong>Version:</strong> AstroLegacy V3.0 Enhanced</p>
+        <p><strong>Last Updated:</strong> October 2025</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2024 NASA. This application is developed for research and educational purposes. All data sourced from official NASA repositories.</p>
+    </div>
+  </div>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
