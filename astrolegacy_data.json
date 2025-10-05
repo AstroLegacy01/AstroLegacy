@@ -1,0 +1,2340 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "title": "Mice in Bion-M 1 space mission: training and selection",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.1",
+      "abstract": "This study investigates Mice responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Mice",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.7835969963574738,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Mice biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Mice",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC4136787",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/"
+    },
+    {
+      "id": 2,
+      "title": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.2",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Cell biology approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Cell biology",
+      "platform": "ISS",
+      "confidence_score": 0.9701958191761104,
+      "ai_summary": "Cellular responses to space environment demonstrated key physiological adaptations.",
+      "key_findings": [
+        "Changes in cell cycle regulation",
+        "Modified cellular metabolism patterns",
+        "Altered intercellular communication"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Cell biology analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Cell biology"
+      ],
+      "pmid": "PMC3630201",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3630201/"
+    },
+    {
+      "id": 3,
+      "title": "Stem Cell Health and Tissue Regeneration in Microgravity",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.3",
+      "abstract": "This study investigates Rat responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.90996007942476,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Rat",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC11988870",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988870/"
+    },
+    {
+      "id": 4,
+      "title": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.4",
+      "abstract": "This study investigates Rat responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.8985299580158356,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Rat",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC7998608",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7998608/"
+    },
+    {
+      "id": 5,
+      "title": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.5",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.8381939186501693,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC5587110",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587110/"
+    },
+    {
+      "id": 6,
+      "title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.6",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.7816363898089803,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC8396460",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8396460/"
+    },
+    {
+      "id": 7,
+      "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.7",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Radiation biology approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Radiation biology",
+      "platform": "Ground-based",
+      "confidence_score": 0.9622118607822244,
+      "ai_summary": "Radiation exposure effects were characterized across multiple biological systems.",
+      "key_findings": [
+        "Increased DNA damage response activation",
+        "Enhanced repair mechanism upregulation",
+        "Modified radiation sensitivity patterns"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Radiation biology analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Radiation biology"
+      ],
+      "pmid": "PMC5666799",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666799/"
+    },
+    {
+      "id": 8,
+      "title": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.8",
+      "abstract": "This study investigates Rat responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.8857584357282421,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Rat",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC5460236",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460236/"
+    },
+    {
+      "id": 9,
+      "title": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.9",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Tissue analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Tissue analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.9036333324205248,
+      "ai_summary": "Tissue-level changes provided insights into Unknown adaptation mechanisms.",
+      "key_findings": [
+        "Tissue architecture modifications observed",
+        "Changes in extracellular matrix composition",
+        "Altered tissue regeneration capacity"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Tissue analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Tissue analysis"
+      ],
+      "pmid": "PMC6222041",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222041/"
+    },
+    {
+      "id": 10,
+      "title": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.10",
+      "abstract": "This study investigates Mouse responses under Ground-based conditions using Radiation biology approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Mouse",
+      "experiment_type": "Radiation biology",
+      "platform": "Ground-based",
+      "confidence_score": 0.816863221580827,
+      "ai_summary": "Radiation exposure effects were characterized across multiple biological systems.",
+      "key_findings": [
+        "Increased DNA damage response activation",
+        "Enhanced repair mechanism upregulation",
+        "Modified radiation sensitivity patterns"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Mouse biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Radiation biology analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Mouse",
+        "Ground-based",
+        "Radiation biology"
+      ],
+      "pmid": "PMC6813909",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6813909/"
+    },
+    {
+      "id": 11,
+      "title": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.11",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Tissue analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Tissue analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.7775630550072891,
+      "ai_summary": "Tissue-level changes provided insights into Unknown adaptation mechanisms.",
+      "key_findings": [
+        "Tissue architecture modifications observed",
+        "Changes in extracellular matrix composition",
+        "Altered tissue regeneration capacity"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Tissue analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Tissue analysis"
+      ],
+      "pmid": "PMC4095884",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4095884/"
+    },
+    {
+      "id": 12,
+      "title": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.12",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8106390889526108,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3040128",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040128/"
+    },
+    {
+      "id": 13,
+      "title": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.13",
+      "abstract": "This study investigates Arabidopsis responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Arabidopsis",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.7826290310338454,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Arabidopsis biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Arabidopsis",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3177255",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3177255/"
+    },
+    {
+      "id": 14,
+      "title": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.14",
+      "abstract": "This study investigates Arabidopsis responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Arabidopsis",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.9612131504297624,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Arabidopsis biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Arabidopsis",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC11500582",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11500582/"
+    },
+    {
+      "id": 15,
+      "title": "Root growth movements: Waving and skewing.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.15",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.94515648920289,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC5387210",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/"
+    },
+    {
+      "id": 16,
+      "title": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.16",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.8000358505164464,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Unknown samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC4642138",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642138/"
+    },
+    {
+      "id": 17,
+      "title": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.17",
+      "abstract": "This study investigates Arabidopsis responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Arabidopsis",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.9175521323485204,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Arabidopsis samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Arabidopsis biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Arabidopsis",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC5387210",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/"
+    },
+    {
+      "id": 18,
+      "title": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.18",
+      "abstract": "This study investigates Rat responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.7970305953870113,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Rat samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Rat",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC2915878",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915878/"
+    },
+    {
+      "id": 19,
+      "title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.19",
+      "abstract": "This study investigates Drosophila responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Drosophila",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.8864641684529919,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Drosophila biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Drosophila",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC3901686",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901686/"
+    },
+    {
+      "id": 20,
+      "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.20",
+      "abstract": "This study investigates Mouse responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Mouse",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.9430578290070802,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Mouse biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Mouse",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC6985101",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985101/"
+    },
+    {
+      "id": 21,
+      "title": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.21",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "Ground-based",
+      "confidence_score": 0.8483474437147966,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under Ground-based conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Gene expression"
+      ],
+      "pmid": "PMC6387434",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387434/"
+    },
+    {
+      "id": 22,
+      "title": "FAIRness and usability for open-access omics data systems.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.22",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8098677539315191,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC6371294",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371294/"
+    },
+    {
+      "id": 23,
+      "title": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.23",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "Ground-based",
+      "confidence_score": 0.7993775425120386,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under Ground-based conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Gene expression"
+      ],
+      "pmid": "PMC7072278",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7072278/"
+    },
+    {
+      "id": 24,
+      "title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.24",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.8324291192457375,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC8441986",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441986/"
+    },
+    {
+      "id": 25,
+      "title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.25",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.9503349611951708,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC9400218",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400218/"
+    },
+    {
+      "id": 26,
+      "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.26",
+      "abstract": "This study investigates Rat responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.8694335859039184,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Rat",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC9267413",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9267413/"
+    },
+    {
+      "id": 27,
+      "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.27",
+      "abstract": "This study investigates Mice responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Mice",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.9366358707885142,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Mice biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Mice",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC9576569",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9576569/"
+    },
+    {
+      "id": 28,
+      "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.28",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "Ground-based",
+      "confidence_score": 0.8059789343585301,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under Ground-based conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Gene expression"
+      ],
+      "pmid": "PMC10789781",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10789781/"
+    },
+    {
+      "id": 29,
+      "title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.29",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Cell biology approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Cell biology",
+      "platform": "Ground-based",
+      "confidence_score": 0.9696582567660608,
+      "ai_summary": "Cellular responses to space environment demonstrated key physiological adaptations.",
+      "key_findings": [
+        "Changes in cell cycle regulation",
+        "Modified cellular metabolism patterns",
+        "Altered intercellular communication"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Cell biology analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Cell biology"
+      ],
+      "pmid": "PMC10772081",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10772081/"
+    },
+    {
+      "id": 30,
+      "title": "Aging and putative frailty biomarkers are altered by spaceflight",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.30",
+      "abstract": "This study investigates Unknown responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.7908347631282415,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC11166946",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166946/"
+    },
+    {
+      "id": 31,
+      "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.31",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "ISS",
+      "confidence_score": 0.9778067741485158,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under ISS conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Gene expression"
+      ],
+      "pmid": "PMC11166944",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166944/"
+    },
+    {
+      "id": 32,
+      "title": "Ethical considerations for the age of non-governmental space exploration",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.32",
+      "abstract": "This study investigates Rat responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.7833289002537142,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Rat",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC11166968",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166968/"
+    },
+    {
+      "id": 33,
+      "title": "Innate immune responses of Drosophila melanogaster are altered by spaceflight.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.33",
+      "abstract": "This study investigates Drosophila responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Drosophila",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.8639699546094837,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Drosophila biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Drosophila",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC7000411",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000411/"
+    },
+    {
+      "id": 34,
+      "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.34",
+      "abstract": "This study investigates Drosophila responses under ISS conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Drosophila",
+      "experiment_type": "General research",
+      "platform": "ISS",
+      "confidence_score": 0.9422056727748114,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Drosophila biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Drosophila",
+        "ISS",
+        "General research"
+      ],
+      "pmid": "PMC7787258",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787258/"
+    },
+    {
+      "id": 35,
+      "title": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.35",
+      "abstract": "This study investigates Plant responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Plant",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8153207678007397,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Plant biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Plant",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC8716943",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8716943/"
+    },
+    {
+      "id": 36,
+      "title": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.36",
+      "abstract": "This study investigates Rat responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Rat",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.9175516705262288,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Rat samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Rat biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Rat",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC4826010",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826010/"
+    },
+    {
+      "id": 37,
+      "title": "ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.37",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.7865935727237753,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC6048781",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048781/"
+    },
+    {
+      "id": 38,
+      "title": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.38",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8166976891280193,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC7010715",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010715/"
+    },
+    {
+      "id": 39,
+      "title": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.39",
+      "abstract": "This study investigates Arabidopsis responses under Ground-based conditions using Cell biology approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Arabidopsis",
+      "experiment_type": "Cell biology",
+      "platform": "Ground-based",
+      "confidence_score": 0.8301724809710959,
+      "ai_summary": "Cellular responses to space environment demonstrated key physiological adaptations.",
+      "key_findings": [
+        "Changes in cell cycle regulation",
+        "Modified cellular metabolism patterns",
+        "Altered intercellular communication"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Arabidopsis biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Cell biology analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Arabidopsis",
+        "Ground-based",
+        "Cell biology"
+      ],
+      "pmid": "PMC7503278",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7503278/"
+    },
+    {
+      "id": 40,
+      "title": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.40",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.7555116072441664,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Unknown samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC8364238",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8364238/"
+    },
+    {
+      "id": 41,
+      "title": "Microgravity Stress: Bone and Connective Tissue",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.41",
+      "abstract": "This study investigates Unknown responses under ISS conditions using Tissue analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Tissue analysis",
+      "platform": "ISS",
+      "confidence_score": 0.8810730857808963,
+      "ai_summary": "Tissue-level changes provided insights into Unknown adaptation mechanisms.",
+      "key_findings": [
+        "Tissue architecture modifications observed",
+        "Changes in extracellular matrix composition",
+        "Altered tissue regeneration capacity"
+      ],
+      "mission_implications": [
+        "Critical for long-duration space station missions",
+        "Informs crew health monitoring protocols"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using ISS facilities with standard protocols...",
+        "results": "Tissue analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for ISS research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "ISS",
+        "Tissue analysis"
+      ],
+      "pmid": "PMC11579474",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11579474/"
+    },
+    {
+      "id": 42,
+      "title": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.42",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.8192509998915151,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Unknown samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC2998437",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2998437/"
+    },
+    {
+      "id": 43,
+      "title": "Manipulating the permeation of charged compounds through the MscL nanovalve.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.43",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.7954359704149354,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3005423",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005423/"
+    },
+    {
+      "id": 44,
+      "title": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo.",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.44",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.9258552756501236,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3190158",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3190158/"
+    },
+    {
+      "id": 45,
+      "title": "Three routes to modulate the pore size of the MscL channel/nanovalve",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.45",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8011470338559703,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3289768",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3289768/"
+    },
+    {
+      "id": 46,
+      "title": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2021,
+      "doi": "10.1000/example.46",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Protein analysis approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Protein analysis",
+      "platform": "Ground-based",
+      "confidence_score": 0.777652171743492,
+      "ai_summary": "Protein structure and function studies showed notable alterations in Unknown samples.",
+      "key_findings": [
+        "Enhanced protein crystallization in microgravity",
+        "Structural modifications under space conditions",
+        "Improved protein stability and function"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Protein analysis analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Protein analysis"
+      ],
+      "pmid": "PMC3508904",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508904/"
+    },
+    {
+      "id": 47,
+      "title": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2022,
+      "doi": "10.1000/example.47",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.8007854930829432,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3430326",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3430326/"
+    },
+    {
+      "id": 48,
+      "title": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2023,
+      "doi": "10.1000/example.48",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using General research approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "General research",
+      "platform": "Ground-based",
+      "confidence_score": 0.9275345755973976,
+      "ai_summary": "Comprehensive study investigating space environment effects on biological systems.",
+      "key_findings": [
+        "Multiple biological systems affected",
+        "Complex interaction patterns identified",
+        "Novel adaptation mechanisms discovered"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "General research analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "General research"
+      ],
+      "pmid": "PMC3593973",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3593973/"
+    },
+    {
+      "id": 49,
+      "title": "Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2024,
+      "doi": "10.1000/example.49",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "Ground-based",
+      "confidence_score": 0.9435007683290546,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under Ground-based conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Gene expression"
+      ],
+      "pmid": "PMC5018776",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5018776/"
+    },
+    {
+      "id": 50,
+      "title": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies",
+      "authors": [
+        "Author 1",
+        "Author 2",
+        "Author 3"
+      ],
+      "year": 2020,
+      "doi": "10.1000/example.50",
+      "abstract": "This study investigates Unknown responses under Ground-based conditions using Gene expression approaches. The research provides insights into biological adaptation mechanisms relevant to space exploration.",
+      "organism": "Unknown",
+      "experiment_type": "Gene expression",
+      "platform": "Ground-based",
+      "confidence_score": 0.9312809704919164,
+      "ai_summary": "Analysis revealed significant changes in gene expression patterns under Ground-based conditions.",
+      "key_findings": [
+        "Differential expression in key regulatory pathways",
+        "Altered transcription factors under microgravity",
+        "Modified stress response gene networks"
+      ],
+      "mission_implications": [
+        "Supports Earth-based space analog research",
+        "Validates terrestrial simulation approaches"
+      ],
+      "sections": {
+        "introduction": "Understanding Unknown biology in space environments is crucial for mission success...",
+        "methods": "Experiments were conducted using Ground-based facilities with standard protocols...",
+        "results": "Gene expression analysis revealed significant findings across multiple parameters...",
+        "conclusion": "These results demonstrate important implications for Ground-based research applications..."
+      },
+      "entities": [
+        "Unknown",
+        "Ground-based",
+        "Gene expression"
+      ],
+      "pmid": "PMC4896697",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896697/"
+    }
+  ],
+  "organisms": [
+    {
+      "name": "Mice",
+      "count": 2,
+      "category": "Mammal"
+    },
+    {
+      "name": "Unknown",
+      "count": 31,
+      "category": "Mixed/Other"
+    },
+    {
+      "name": "Rat",
+      "count": 7,
+      "category": "Mammal"
+    },
+    {
+      "name": "Mouse",
+      "count": 2,
+      "category": "Mammal"
+    },
+    {
+      "name": "Arabidopsis",
+      "count": 4,
+      "category": "Plant"
+    },
+    {
+      "name": "Drosophila",
+      "count": 3,
+      "category": "Insect"
+    },
+    {
+      "name": "Plant",
+      "count": 1,
+      "category": "Plant"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "ISS",
+      "count": 18,
+      "type": "Space-based"
+    },
+    {
+      "name": "Ground-based",
+      "count": 32,
+      "type": "Earth-based"
+    }
+  ],
+  "experiment_types": [
+    {
+      "name": "General research",
+      "count": 22
+    },
+    {
+      "name": "Cell biology",
+      "count": 3
+    },
+    {
+      "name": "Gene expression",
+      "count": 13
+    },
+    {
+      "name": "Radiation biology",
+      "count": 2
+    },
+    {
+      "name": "Tissue analysis",
+      "count": 3
+    },
+    {
+      "name": "Protein analysis",
+      "count": 7
+    }
+  ],
+  "research_trends": [
+    {
+      "year": 2020,
+      "publications": 10
+    },
+    {
+      "year": 2021,
+      "publications": 10
+    },
+    {
+      "year": 2022,
+      "publications": 10
+    },
+    {
+      "year": 2023,
+      "publications": 10
+    },
+    {
+      "year": 2024,
+      "publications": 10
+    }
+  ],
+  "knowledge_graph": {
+    "nodes": [
+      {
+        "id": "pub_1",
+        "type": "publication",
+        "label": "Mice in Bion-M 1 space mission...",
+        "size": 20
+      },
+      {
+        "id": "pub_2",
+        "type": "publication",
+        "label": "Microgravity induces pelvic bo...",
+        "size": 20
+      },
+      {
+        "id": "pub_3",
+        "type": "publication",
+        "label": "Stem Cell Health and Tissue Re...",
+        "size": 20
+      },
+      {
+        "id": "pub_4",
+        "type": "publication",
+        "label": "Microgravity Reduces the Diffe...",
+        "size": 20
+      },
+      {
+        "id": "pub_5",
+        "type": "publication",
+        "label": "Microgravity validation of a n...",
+        "size": 20
+      },
+      {
+        "id": "pub_6",
+        "type": "publication",
+        "label": "Spaceflight Modulates the Expr...",
+        "size": 20
+      },
+      {
+        "id": "pub_7",
+        "type": "publication",
+        "label": "Dose- and Ion-Dependent Effect...",
+        "size": 20
+      },
+      {
+        "id": "pub_8",
+        "type": "publication",
+        "label": "From the bench to exploration ...",
+        "size": 20
+      },
+      {
+        "id": "pub_9",
+        "type": "publication",
+        "label": "High-precision method for cycl...",
+        "size": 20
+      },
+      {
+        "id": "pub_10",
+        "type": "publication",
+        "label": "Effects of ex vivo ionizing ra...",
+        "size": 20
+      },
+      {
+        "id": "org_mice",
+        "type": "organism",
+        "label": "Mice",
+        "size": 22
+      },
+      {
+        "id": "org_rat",
+        "type": "organism",
+        "label": "Rat",
+        "size": 27
+      },
+      {
+        "id": "org_mouse",
+        "type": "organism",
+        "label": "Mouse",
+        "size": 22
+      },
+      {
+        "id": "org_arabidopsis",
+        "type": "organism",
+        "label": "Arabidopsis",
+        "size": 24
+      },
+      {
+        "id": "org_drosophila",
+        "type": "organism",
+        "label": "Drosophila",
+        "size": 23
+      },
+      {
+        "id": "org_plant",
+        "type": "organism",
+        "label": "Plant",
+        "size": 21
+      },
+      {
+        "id": "plat_iss",
+        "type": "platform",
+        "label": "ISS",
+        "size": 43
+      },
+      {
+        "id": "plat_ground_based",
+        "type": "platform",
+        "label": "Ground-based",
+        "size": 50
+      },
+      {
+        "id": "exp_general_research",
+        "type": "experiment",
+        "label": "General research",
+        "size": 35
+      },
+      {
+        "id": "exp_cell_biology",
+        "type": "experiment",
+        "label": "Cell biology",
+        "size": 18
+      },
+      {
+        "id": "exp_gene_expression",
+        "type": "experiment",
+        "label": "Gene expression",
+        "size": 28
+      },
+      {
+        "id": "exp_radiation_biology",
+        "type": "experiment",
+        "label": "Radiation biology",
+        "size": 17
+      },
+      {
+        "id": "exp_tissue_analysis",
+        "type": "experiment",
+        "label": "Tissue analysis",
+        "size": 18
+      },
+      {
+        "id": "exp_protein_analysis",
+        "type": "experiment",
+        "label": "Protein analysis",
+        "size": 22
+      }
+    ],
+    "links": [
+      {
+        "source": "pub_1",
+        "target": "org_mice",
+        "type": "studies"
+      },
+      {
+        "source": "pub_1",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_1",
+        "target": "exp_general_research",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_2",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_2",
+        "target": "exp_cell_biology",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_3",
+        "target": "org_rat",
+        "type": "studies"
+      },
+      {
+        "source": "pub_3",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_3",
+        "target": "exp_gene_expression",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_4",
+        "target": "org_rat",
+        "type": "studies"
+      },
+      {
+        "source": "pub_4",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_4",
+        "target": "exp_gene_expression",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_5",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_5",
+        "target": "exp_gene_expression",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_6",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_6",
+        "target": "exp_gene_expression",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_7",
+        "target": "plat_ground_based",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_7",
+        "target": "exp_radiation_biology",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_8",
+        "target": "org_rat",
+        "type": "studies"
+      },
+      {
+        "source": "pub_8",
+        "target": "plat_iss",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_8",
+        "target": "exp_general_research",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_9",
+        "target": "plat_ground_based",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_9",
+        "target": "exp_tissue_analysis",
+        "type": "uses_method"
+      },
+      {
+        "source": "pub_10",
+        "target": "org_mouse",
+        "type": "studies"
+      },
+      {
+        "source": "pub_10",
+        "target": "plat_ground_based",
+        "type": "conducted_on"
+      },
+      {
+        "source": "pub_10",
+        "target": "exp_radiation_biology",
+        "type": "uses_method"
+      }
+    ]
+  },
+  "statistics": {
+    "total_publications": 50,
+    "unique_organisms": 6,
+    "platforms_used": 2,
+    "average_confidence": 0.8615499013769383,
+    "years_covered": "2020-2024",
+    "top_research_areas": [
+      "Gene Expression Analysis",
+      "Cell Biology Studies",
+      "Radiation Biology",
+      "Protein Analysis",
+      "Tissue Biology"
+    ]
+  }
+}
